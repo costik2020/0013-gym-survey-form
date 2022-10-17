@@ -5,11 +5,13 @@
 }
 
 body {
+  /*border: 10px black solid;*/
   width: 100%;
-  height: 200vh;
+  height: 200rem;
   margin: 0;
   padding-left: 0px;
   padding-right: 0px;
+  position: relative;
 
   /*filter: blur(10px);*/
 
@@ -45,11 +47,12 @@ Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribu
 .background {
   /*border: 10px black solid;*/
   background-image: url(large-gym.jpg);
-  background-position: bottom;
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
   width: 100%;
+  height: 100%;
   margin: 0;
 }
 
@@ -58,7 +61,7 @@ Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribu
   background: rgba(125, 50, 50, 0.6);
 
   width: 100%;
-  height: 200vh;
+  height: 100%;
 }
 
 h1, p {
@@ -183,8 +186,8 @@ input[type="submit"]:active {
 	text-align: right;
 	background: rgba(125, 50, 50, 0.1);
 	position: absolute;
-	bottom: -98vh;
- 	right: 1vh;
+	bottom: 1px;
+ 	right: 1px;
 }
 
 
