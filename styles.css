@@ -1,7 +1,13 @@
 body {
   width: 100vm;
   height: 100vm;
-  background-color: #ADA296;
+  background-image: url(large-gym.jpg);
+
+  /*
+
+Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=91849">David Mark</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=91849">Pixabay</a>
+
+  */
 }
 
 h1, p {
