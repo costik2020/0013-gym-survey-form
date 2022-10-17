@@ -46,7 +46,8 @@ Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribu
 
 .background {
   /*border: 10px black solid;*/
-  background-image: url(large-gym.jpg);
+  /*For freecodecamp use this url="https://cdn.pixabay.com/photo/2013/03/09/14/38/gym-91849_960_720.jpg" to get the image from Pixabay */
+  background-image: url("large-gym.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
