@@ -201,6 +201,10 @@ input[type="submit"]:active {
 }
 
 
+.attribution a {
+	color: #ffffff;
+}
+
 
 /*Phone responsive*/
 
